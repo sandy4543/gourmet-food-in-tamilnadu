@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropdown {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+body{
+    background-color: gray;
+}
+a{
+    display: block;
+    width: 200px;
+    background-color: lightgray;
+    padding: 10px 0;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    background-color: aquamarine;
+}
+.sweet{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(1):hover .sweet{
+    display: block;
+}
+.savery{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(2):hover .savery{
+    display: block;
+}
+.biriyani{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(3):hover .biriyani{
+    display: block;
+}
+.nonveg{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(4):hover .nonveg{
+    display: block;
+}
+.veg{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(5):hover .veg{
+    display: block;
+}
+
+
+
